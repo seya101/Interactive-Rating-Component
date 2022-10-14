@@ -18,18 +18,22 @@
         class="flex justify-between text-white my-7 mb-10 text-gray-400"
       >
         <div  
-          v-for="({ value }, index) in items"
-          @click="setActive(index)"
-          :key="index"
+          v-for="({ value }) in items"
+          @click="setActive(value)"
+          :key="value"
         >
           <span 
             class="bg-[#262e38] rounded-full p-4 px-5 w-full text-center hover:bg-orange-500 hover:text-white font-bold focus: cursor-pointer"
-            :class="{'bg-gray-400 text-white': active === index}"
+            :class="{'bg-gray-400 text-white': active === value}"
           >
           {{ value }}
+
+          
           </span>
         </div>
       </div>
+      <SubmitForm :index="active" />
+      
       <!-- Submit Button -->
       <router-link to="/SubmitForm" >
         <button  class="bg-orange-500 text-white font-bold hover:bg-white hover:text-orange-500 w-full rounded-full tracking-wide">SUMBIT</button> 
@@ -39,6 +43,7 @@
 
 <script setup>
   import {ref} from "vue";
+  import SubmitForm from "./SubmitForm.vue";
 
   
   

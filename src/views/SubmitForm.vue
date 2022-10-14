@@ -23,10 +23,10 @@
 </template>
 
 <script>
- export default {
-  props: ['index']
- }
 
-
-
+export default {
+  props: [
+    "index"
+  ]
+};
 </script>
