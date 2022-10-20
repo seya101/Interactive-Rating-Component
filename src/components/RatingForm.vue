@@ -49,11 +49,11 @@
         </div>
         <!-- Pill -->
         <div class="mb-10">
-          <button 
+          <span 
           class="bg-[#223241] text-orange-500  w-full rounded-full p-4"
           >
           You selected {{ active }} out of 5
-          </button> 
+          </span> 
         </div>
         
         <!-- Content -->
@@ -69,8 +69,6 @@
 
 <script setup>
   import { ref } from "vue";
-  import { useRouter } from 'vue-router'
-  const router = useRouter()
   const active = ref(null);
   const showDiv = ref(null);
   const hiddenDiv = ref(null);
