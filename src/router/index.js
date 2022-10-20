@@ -1,18 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home.vue'
-import Submit from '../views/SubmitForm.vue'
+import RatingForm from '../components/RatingForm.vue'
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'RatingForm',
+    component: RatingForm
   },
-  {
-    path: '/SubmitForm',
-    name: 'SubmitForm',
-    component: Submit
-  }
+
 ]
 
 const router = createRouter({
