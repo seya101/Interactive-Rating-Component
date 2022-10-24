@@ -7,9 +7,9 @@
       </div>
 
       <!-- Text Content -->
-      <h5 class="mb-2 text-2xl tracking-tight text-white ">
+      <h1 class="mb-2 text-3xl tracking-tight text-white ">
           How did we do?
-      </h5>
+      </h1>
       <p class="mb-10 font-normal text-gray-400">
         Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
       </p>
@@ -57,7 +57,7 @@
         </div>
         
         <!-- Content -->
-        <h5 class="mb-2 text-2xl tracking-tight text-white">
+        <h5 class="mb-2 text-3xl tracking-tight text-white">
           Thank you!
         </h5>
         <p class="mb-5 font-normal text-gray-400">
