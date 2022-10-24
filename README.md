@@ -1,7 +1,37 @@
-# Vue 3 + Vite
+# Frontend Mentor - Interactive Rating Component
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+### Screenshot
 
-## Recommended IDE Setup
+![](./public/screenshot.png)
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Generate a new piece of advice by clicking the dice icon
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- CSS Grid
+- [React](https://reactjs.org/) - JS library
+
+
+### Screenshot
+![](./public/screenshot.png)
+
+### Built with
+
+- Vue 3 + Vite
+- Tailwind CSS 
+
+### The challenge
+
+Users should be able to:
+
+- Select and submit a number rating
+- See the "Thank you" card state after submitting a rating
+- See hover and focus states for all interactive elements on the page
