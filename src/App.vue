@@ -1,5 +1,5 @@
 <template>
-    <main class="flex-grow my-64">
+    <main class="flex-grow mb-64 mt-48">
       <rating-form></rating-form>
     </main>
     <footer class="text-gray-400 justify-center">
