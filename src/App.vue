@@ -1,7 +1,7 @@
 <template>
-    <div class="flex-grow my-60">
+    <main class="flex-grow my-60">
       <rating-form></rating-form>
-    </div>
+    </main>
     <footer class="text-gray-400 justify-center">
         Challenge by 
         <a href="https://www.frontendmentor.io/" class="text-orange-500  hover:text-orange-200 active:text-orange-200"> Frontend Mentor</a>
