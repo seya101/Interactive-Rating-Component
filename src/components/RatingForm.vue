@@ -7,7 +7,7 @@
       </div>
 
       <!-- Text Content -->
-      <h5 class="mb-2 text-2xl tracking-tight text-white">
+      <h5 class="mb-2 text-2xl tracking-tight text-white ">
           How did we do?
       </h5>
       <p class="mb-10 font-normal text-gray-400">
