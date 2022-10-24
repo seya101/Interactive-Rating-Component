@@ -6,7 +6,7 @@
         Challenge by 
         <a href="https://www.frontendmentor.io/" class="text-orange-500  hover:text-orange-200 active:text-orange-200"> Frontend Mentor</a>
         Coded by 
-        <a href="https://github.com/seya101" class="text-orange-500  hover:text-orange-200 active:text-orange-200 "> Hosea Patricia Corpuz</a>
+        <a href="https://www.linkedin.com/in/hosea-patricia-corpuz-2180b7212/" class="text-orange-500  hover:text-orange-200 active:text-orange-200 "> Hosea Patricia Corpuz</a>
     </footer>
 </template>
 
