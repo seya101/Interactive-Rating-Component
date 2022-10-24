@@ -25,8 +25,8 @@
           :key="value"
       >
       <li>
-          <input type="radio" id="selectedRate" :value="active" class="hidden peer" required />
-          <span for="selectedRate" 
+          <input type="radio" :value="active" class="hidden peer" required />
+          <span 
             class="bg-[#262e38] rounded-full p-4 px-5 w-full text-center hover:bg-orange-500 hover:text-white font-bold focus: cursor-pointer"
             :class="{'bg-gray-400 text-white': active === value}"
           >
